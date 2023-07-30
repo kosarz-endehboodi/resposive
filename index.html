@@ -4,23 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>k.ze</title>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-      crossorigin="anonymous"
-    ></script>
 
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-light-lg header">
+    <!-- orginal -->
+    <nav class="navbar navbar-expand-lg header position-fixed">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">kosar.ze</a>
         <button
@@ -34,10 +34,12 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ">
             <li class="nav-item">
-              <a class="nav-link hover active" aria-current="page" href="#">Home</a>
+              <a class="nav-link hover active" aria-current="page" href="#"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link hover" href="src/About.html">About</a>
@@ -46,7 +48,7 @@
               <a class="nav-link hover" href="src/contact.html">Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link  disabled" aria-disabled="true">services</a>
+              <a class="nav-link disabled" aria-disabled="true">services</a>
             </li>
           </ul>
         </div>
@@ -56,37 +58,94 @@
     <div class="myproject">
       <div class="container-fluid">
         <div class="row">
-          <div class="d-flex justify-content-center">
+          <div class="d-flex pt-3 justify-content-center">
             <h1>My Project</h1>
           </div>
-          <div class="projectPic ">
-            <div class="row d-flex justify-content-center"  >
-              <div class="col-md-4 text-center">
-                <a href="https://flowershops.netlify.app/"
-                  ><img
-                    src="img/flower shop — Mozilla Firefox 7_27_2023 3_11_19 AM.png"
-                    alt=""
-                  />
-                </a>
+          <div class="projectPic pt-3">
+            <div class="row d-flex justify-content-center">
+              <div class="row hov">
+                <div class="col-md-4 text-center">
+                  <a href="https://flowershops.netlify.app/"
+                    ><img
+                      src="img/flower shop — Mozilla Firefox 7_27_2023 3_11_19 AM.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div
+                  class="pt-4 col-md-4 subject d-flex-col justify-content-center"
+                >
+                  <h2>flower shop</h2>
+                  <p>
+                    The flower shop project is my first project. My first idea
+                    is a symbol of beauty, hope and life.
+                  </p>
+                  <a class="btn" href="https://flowershops.netlify.app/">
+                    show
+                  </a>
+                </div>
               </div>
-              <div class="col-md-4 text-center">
-                <a href="https://weatherappkzbd.netlify.app/">
-                  <img src="img/weathers.png" alt=""
-                /></a>
+
+              <div class="row hov">
+                <div
+                  class="pt-4 col-md-4 subject d-flex-col justify-content-center"
+                >
+                  <h2>weather app</h2>
+                  <p>
+                    The weather web app is a small project designed with the aim
+                    of weather forecasting.
+                  </p>
+                  <a class="btn" href="https://weatherappkzbd.netlify.app/">
+                    show
+                  </a>
+                </div>
+                <div class="col-md-4 text-center">
+                  <a href="https://weatherappkzbd.netlify.app/">
+                    <img src="img/weathers.png" alt=""
+                  /></a>
+                </div>
               </div>
             </div>
+            <!-- col2 for personal blog and color lib project -->
+            <hr />
             <div class="row d-flex justify-content-center">
-              <div class="col-md-4 text-center">
-                <a href="https://personalblogtest.netlify.app/"
-                  ><img src="img/personalexsample.png" alt=""
-                /></a>
+              <div class="row hov">
+                <div class="col-md-4 text-center">
+                  <a href="https://personalblogtest.netlify.app/"
+                    ><img src="img/personalexsample.png" alt=""
+                  /></a>
+                </div>
+                <div
+                  class="pt-4 col-md-4 subject d-flex-col justify-content-center"
+                >
+                  <h2>Personal blog</h2>
+                  <p>
+                    The weather web app is a small project designed with the aim
+                    of weather forecasting.
+                  </p>
+                  <a class="btn" href="https://personalblogtest.netlify.app/">
+                    show
+                  </a>
+                </div>
               </div>
-              <div class="col-md-4  text-center">
-                <a href="https://colorlibkzbd.netlify.app/"
-                  ><img
-                    src="img/Document — Mozilla Firefox 7_27_2023 2_54_02 AM.png"
-                    alt=""
-                /></a>
+
+              <div class="row hov">
+                <div
+                  class="pt-4 col-md-4 subject d-flex-col justify-content-center"
+                >
+                  <h2>news colorlib</h2>
+                  <p>News of the project was implemented for recoding</p>
+                  <a class="btn" href="https://colorlibkzbd.netlify.app/">
+                    show
+                  </a>
+                </div>
+                <div class="col-md-4 text-center">
+                  <a href="https://colorlibkzbd.netlify.app/"
+                    ><img
+                      src="img/Document — Mozilla Firefox 7_27_2023 2_54_02 AM.png"
+                      alt=""
+                  /></a>
+                </div>
               </div>
             </div>
           </div>
