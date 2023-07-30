@@ -137,21 +137,25 @@ hr {
 }
 
 /* contact */
-.footer {
-    margin: 200px auto;
+.footer .row {
+ padding: 100px;
 }
 
-.footer i {
-    font-size: 30px;
+.footer a {
+    font-size: 20px;
     margin: 10px;
+    letter-spacing: 3px;
+    font-weight: 200;
 }
 
-.footer i:hover {
+.footer a:hover {
+
     transition: 1s all;
     -webkit-filter: drop-shadow(2px 4px 2px var(--header--background));
 }
 
 .coded {
+    margin-top:20%;
     display: flex;
     justify-content: center;
 }
