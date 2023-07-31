@@ -117,7 +117,7 @@ hr {
 
 .aboutme h2 {
     font-weight: 100;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 22px;
 
 }
@@ -158,4 +158,16 @@ hr {
     margin-top:20%;
     display: flex;
     justify-content: center;
+}
+
+@media only screen and ( max-width:440px){
+    .hov p{
+    width: 200px;
+    font-weight: 300;
+    }
+
+    .hov h2{
+        font-size:large;
+    }
+    
 }
